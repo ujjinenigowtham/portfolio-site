@@ -52,7 +52,7 @@ body {
 
 .main__banner-section {
   height: 70vh;
-  background-image: url("../images/pixlescustomedited.jpg");
+  background-image: url("pixlescustomedited.jpg");
   background-position: left 90% top 15%;
   background-repeat: no-repeat;
   /* color: #51e2f5; */
@@ -239,7 +239,7 @@ body {
   text-align: center;
 }
 .quote-p {
-  background-image: url("../images/pixels-universe.jpg");
+  background-image: url("pixels-universe.jpg");
   background-attachment: fixed;
   background-position: left 50% top 0;
   height: 90%;
