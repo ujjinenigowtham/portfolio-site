@@ -13,7 +13,7 @@ body {
 
 .main__header {
   background-color: blue;
-  height: 8vh;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,15 +72,10 @@ body {
   text-align: center;
   letter-spacing: 5px;
   /* transparent black color on top of the image */
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(211, 211, 211, 0.5);
+  padding-top: 5vh;
 }
 
-.main__banner-section span {
-  color: #51e2f5;
-  font-size: 2.5rem;
-  font-weight: 400;
-  display: initial;
-}
 
 .intro-section {
   margin-top: 4vh;
@@ -296,9 +291,17 @@ body {
   }
 
   .main__banner-section {
-    background-image: url();
-    background-position: left 20% top 50%;
-    background-size: 100% 70vh;
+    background-image: url("pixels-img-1.jpg");
+    background-position: center center;
+    background-size: 100% 90vh;
+    height: 90vh;
+  }
+
+  .main__banner-section blockquote {
+    background-color: rgba(211, 211, 211, 0.5);
+    color: black;
+    height: auto;
+    padding: 1rem;
   }
 
 }
