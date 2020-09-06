@@ -52,7 +52,7 @@ body {
 
 .main__banner-section {
   height: 70vh;
-  background-image: url("../images/pixlescustomedited.jpg");
+  background-image: url("pixlescustomedited.jpg");
   background-position: left 90% top 15%;
   background-repeat: no-repeat;
   /* color: #51e2f5; */
@@ -71,9 +71,6 @@ body {
   font-family: cursive;
   text-align: center;
   letter-spacing: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   /* transparent black color on top of the image */
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -82,6 +79,7 @@ body {
   color: #51e2f5;
   font-size: 2.5rem;
   font-weight: 400;
+  display: initial;
 }
 
 .intro-section {
@@ -94,7 +92,7 @@ body {
   flex-direction: column;
 }
 
-.intro-section__div-1 > p:nth-child(1) {
+.intro-section__div-1>p:nth-child(1) {
   font-size: 3.7rem;
   font-weight: 700;
   color: #fb3e5d;
@@ -102,7 +100,7 @@ body {
   margin-bottom: 3vh;
 }
 
-.intro-section__div-1 > p:nth-child(2) {
+.intro-section__div-1>p:nth-child(2) {
   font-size: 2.5rem;
   color: #e85086;
   margin-top: 1vh;
@@ -111,7 +109,7 @@ body {
   font-family: cursive;
 }
 
-.intro-section__div-1 > p:nth-child(3) {
+.intro-section__div-1>p:nth-child(3) {
   font-size: 2rem;
   color: #9966cc;
   margin-top: 2vh;
@@ -120,7 +118,7 @@ body {
   line-height: 2.5rem;
 }
 
-.intro-section__div-2 > p:nth-child(1) {
+.intro-section__div-2>p:nth-child(1) {
   color: #0073cf;
   font-size: 1.6rem;
   font-family: cursive;
@@ -130,7 +128,7 @@ body {
   font-weight: 500;
 }
 
-.intro-section__div-2 > p:nth-child(2) {
+.intro-section__div-2>p:nth-child(2) {
   color: #4962c4;
   font-size: 3rem;
   letter-spacing: 10px;
@@ -140,7 +138,7 @@ body {
   font-weight: 400;
 }
 
-.intro-section__div-2 > p:nth-child(3) {
+.intro-section__div-2>p:nth-child(3) {
   color: #003366;
   font-size: 1.5rem;
   font-weight: 700;
@@ -165,8 +163,9 @@ body {
 
 .projects-list {
   background-color: white;
-  margin: 5vh auto;
-  margin-bottom: 5vh;
+  margin: auto;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
   height: 30vh;
   width: 90vw;
   border-radius: 20px;
@@ -193,20 +192,25 @@ body {
   margin-top: 6vh;
   margin-bottom: 7vh;
 }
-.skills > h1 {
+
+.skills>h1 {
   font-family: cursive;
   width: 99%;
   border-bottom: 3px solid black;
   margin: auto;
   padding-bottom: 10px;
+  text-align: center;
 }
-.skills > h1 > span {
+
+.skills>h1>span {
   font-size: 1.5rem;
 }
+
 .skills__ul {
   display: flex;
   flex-direction: column;
 }
+
 .skills__ul li {
   height: 20vh;
   background-color: white;
@@ -220,26 +224,31 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+
 .skills__ul li img {
   height: 80%;
 }
+
 .skills__ul li p {
   font-family: cursive;
   font-size: 2rem;
   width: 50vw;
   text-align: center;
 }
+
 .quote {
   border-top: 3px solid black;
   width: 100vw;
   margin-bottom: 5vh;
 }
-.quote > h1 {
+
+.quote>h1 {
   font-family: cursive;
   text-align: center;
 }
+
 .quote-p {
-  background-image: url("../images/pixels-universe.jpg");
+  background-image: url("pixels-universe.jpg");
   background-attachment: fixed;
   background-position: left 50% top 0;
   height: 90%;
@@ -248,13 +257,15 @@ body {
   align-items: center;
   justify-content: center;
 }
-.quote-p > p {
+
+.quote-p>p {
   color: white;
   font-family: cursive;
   line-height: 2.5rem;
   font-size: 1.5rem;
   width: 95%;
 }
+
 .main__footer {
   height: 7vh;
   background-color: #9966cc;
@@ -263,20 +274,31 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .main__footer a {
   color: white;
   font-family: cursive;
   text-decoration: underline wavy white;
 }
 
-@media (min-width: 421px) {
+
+@media (min-width: 440px) {
   .main__brand__text-sf {
     display: none;
   }
+
   .main__brand__text-ff {
     display: initial;
   }
-  .quote-p > p {
+
+  .quote-p>p {
     line-height: 4rem;
   }
+
+  .main__banner-section {
+    background-image: url();
+    background-position: left 20% top 50%;
+    background-size: 100% 70vh;
+  }
+
 }
