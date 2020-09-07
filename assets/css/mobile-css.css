@@ -52,7 +52,7 @@ body {
 
 .main__banner-section {
   height: 70vh;
-  background-image: url("pixlescustomedited.jpg");
+  background-image: url("assets/images/pixlescustomedited.jpg");
   background-position: left 90% top 15%;
   background-repeat: no-repeat;
   /* color: #51e2f5; */
@@ -65,7 +65,7 @@ body {
 }
 
 .main__banner-section blockquote {
-  height: 80%;
+  height: auto;
   font-size: 2rem;
   line-height: 4rem;
   font-family: cursive;
@@ -243,7 +243,7 @@ body {
 }
 
 .quote-p {
-  background-image: url("pixels-universe.jpg");
+  background-image: url("assets/images/pixels-universe.jpg");
   background-attachment: fixed;
   background-position: left 50% top 0;
   height: 90%;
@@ -291,7 +291,7 @@ body {
   }
 
   .main__banner-section {
-    background-image: url("pixels-img-1.jpg");
+    background-image: url("assets/images/pixels-img-1.jpg");
     background-position: center center;
     background-size: 100% 90vh;
     height: 90vh;
