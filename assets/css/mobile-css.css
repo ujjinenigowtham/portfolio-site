@@ -68,7 +68,7 @@ body {
   height: auto;
   font-size: 2rem;
   line-height: 4rem;
-  font-family: cursive;
+  font-family: 'Merienda One', Helvetica, sans-serif;
   text-align: center;
   letter-spacing: 5px;
   /* transparent black color on top of the image */
@@ -91,7 +91,7 @@ body {
   font-size: 3.7rem;
   font-weight: 700;
   color: #fb3e5d;
-  font-family: cursive;
+  font-family: 'Merienda One', Helvetica, sans-serif;
   margin-bottom: 3vh;
 }
 
@@ -101,7 +101,7 @@ body {
   margin-top: 1vh;
   margin-bottom: 3vh;
   line-height: 3rem;
-  font-family: cursive;
+  font-family: 'Merienda One', Helvetica, sans-serif;
 }
 
 .intro-section__div-1>p:nth-child(3) {
@@ -109,14 +109,14 @@ body {
   color: #9966cc;
   margin-top: 2vh;
   margin-bottom: 2vh;
-  font-family: cursive;
+  font-family: 'Merienda One', Helvetica, sans-serif;
   line-height: 2.5rem;
 }
 
 .intro-section__div-2>p:nth-child(1) {
   color: #0073cf;
   font-size: 1.6rem;
-  font-family: cursive;
+  font-family: 'Merienda One', Helvetica, sans-serif;
   word-spacing: 10px;
   margin-top: 1vh;
   margin-bottom: 0.5vh;
@@ -127,7 +127,7 @@ body {
   color: #4962c4;
   font-size: 3rem;
   letter-spacing: 10px;
-  font-family: cursive;
+  font-family: 'Merienda One', Helvetica, sans-serif;
   margin-top: 0.5vh;
   margin-bottom: 1vh;
   font-weight: 400;
@@ -137,7 +137,7 @@ body {
   color: #003366;
   font-size: 1.5rem;
   font-weight: 700;
-  font-family: cursive;
+  font-family: 'Merienda One', Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -149,7 +149,7 @@ body {
 
 .portfolio-projects h1,
 .portfolio-projects p {
-  font-family: cursive;
+  font-family: 'Merienda One', Helvetica, sans-serif;
 }
 
 .portfolio-projects p {
@@ -180,7 +180,7 @@ body {
 
 .projects-list h3 {
   margin-top: 1.5vh;
-  font-family: cursive;
+  font-family: 'Merienda One', Helvetica, sans-serif;
 }
 
 .skills {
@@ -189,7 +189,7 @@ body {
 }
 
 .skills>h1 {
-  font-family: cursive;
+  font-family: 'Merienda One', Helvetica, sans-serif;
   width: 99%;
   border-bottom: 3px solid black;
   margin: auto;
@@ -225,7 +225,7 @@ body {
 }
 
 .skills__ul li p {
-  font-family: cursive;
+  font-family: 'Merienda One', Helvetica, sans-serif;
   font-size: 2rem;
   width: 50vw;
   text-align: center;
@@ -238,7 +238,7 @@ body {
 }
 
 .quote>h1 {
-  font-family: cursive;
+  font-family: 'Merienda One', Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -255,7 +255,7 @@ body {
 
 .quote-p>p {
   color: white;
-  font-family: cursive;
+  font-family: 'Merienda One', Helvetica, sans-serif;
   line-height: 2.5rem;
   font-size: 1.5rem;
   width: 95%;
@@ -272,7 +272,7 @@ body {
 
 .main__footer a {
   color: white;
-  font-family: cursive;
+  font-family: 'Merienda One', Helvetica, sans-serif;
   text-decoration: underline wavy white;
 }
 
